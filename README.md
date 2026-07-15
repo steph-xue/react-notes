@@ -62,6 +62,7 @@ Hovering over a note in the sidebar reveals a trash icon, and clicking it remove
 |---|---|
 | Frontend | React, JavaScript, HTML, CSS |
 | Libraries | React MDE, Showdown, React Split |
+| Storage | Browser local storage |
 | Build Tool | Vite |
 
 <br>
