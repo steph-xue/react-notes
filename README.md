@@ -57,11 +57,11 @@ Hovering over a note in the sidebar reveals a trash icon, and clicking it remove
 <br>
 
 ## Tech Stack
-
+ 
 | Layer | Technologies |
 |---|---|
 | Frontend | React, JavaScript, HTML, CSS |
-| Libraries | React MDE, Showdown, React Split |
+| Libraries | React MDE (provides the Markdown editor with write and preview tabs),<br>Showdown (converts a note's Markdown content into HTML),<br>React Split (creates the draggable divider between panels) |
 | Storage | Local storage |
 | Build Tool | Vite |
 
