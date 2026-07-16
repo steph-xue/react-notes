@@ -22,7 +22,7 @@ A web application for writing and organizing notes in Markdown, with a live prev
 
 ## Overview
 
-This project is a notes web application with a resizable sidebar and editor, built to practice working with third party libraries in React. The interface is split into two panels, a sidebar listing every note and an editor for writing and previewing the selected one, with a draggable divider between them so either panel can be resized. Notes are written in Markdown and can be instantly converted to a formatted HTML preview. All notes are saved directly in the browser's local storage, so they persist between visits without needing a backend or database.
+This project is a web application that allows users to create, organize, edit, preview, and delete notes through a split-panel interface. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Notes are saved in the browser’s local storage and displayed in the sidebar with the most recently updated entries appearing first. The application includes a Markdown editor with formatting controls and a preview tab that converts written Markdown into rendered HTML. Users can select and edit existing notes, create new ones, and remove notes directly from the sidebar.
 
 <br>
 
