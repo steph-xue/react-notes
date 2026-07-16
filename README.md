@@ -1,6 +1,6 @@
 # React Notes
 
-A web application for writing and organizing notes in Markdown, with a live preview and a resizable, split panel layout.
+A web application for writing and organizing notes in Markdown, with a live preview and a resizable, split panel layout. Notes are saved automatically as you write, and the most recently edited one always stays at the top of the list.
 
 **[View Live Demo](https://react-notes-local-sx.netlify.app/)**
 
@@ -22,7 +22,7 @@ A web application for writing and organizing notes in Markdown, with a live prev
 
 ## Overview
 
-This project is a notes application with a resizable sidebar and editor, built to practice working with third party libraries in React. The interface is split into two panels, a sidebar listing every note and an editor for writing and previewing the selected one, with a draggable divider between them so either panel can be resized. Notes are written in Markdown and can be instantly converted to a formatted HTML preview. All notes are saved directly in the browser's local storage, so they persist between visits without needing a backend or database.
+This project is a notes web application with a resizable sidebar and editor, built to practice working with third party libraries in React. The interface is split into two panels, a sidebar listing every note and an editor for writing and previewing the selected one, with a draggable divider between them so either panel can be resized. Notes are written in Markdown and can be instantly converted to a formatted HTML preview. All notes are saved directly in the browser's local storage, so they persist between visits without needing a backend or database.
 
 <br>
 
@@ -52,7 +52,7 @@ Selecting the "Preview" tab renders the current note's Markdown as formatted HTM
 ### Deleting Notes
 Hovering over a note in the sidebar reveals a trash icon, and clicking it removes that note immediately.
 
-<p align="center"><img src="./images/delete.png?raw=true" alt="Delete Note" width="700"></p>
+<p align="center"><img src="./images/delete.png?raw=true" alt="Delete Note" width="300"></p>
 
 <br>
 
@@ -62,7 +62,7 @@ Hovering over a note in the sidebar reveals a trash icon, and clicking it remove
 |---|---|
 | Frontend | React, JavaScript, HTML, CSS |
 | Libraries | React MDE, Showdown, React Split |
-| Storage | Browser local storage |
+| Storage | Local storage |
 | Build Tool | Vite |
 
 <br>
