@@ -1,12 +1,22 @@
-# React Notes
+<h1 align="center">
+  React Notes
+</h1>
 
-A notes web application for writing and organizing content in Markdown, with a live preview and a resizable split-panel layout. Notes are saved automatically as users type, and the most recently updated note remains at the top of the list.
+<h4 align="center">
+  A notes web application for writing and organizing Markdown notes with a resizable layout.
+</h4>
 
-**[View Live Demo](https://react-notes-sx.netlify.app/)**
+<p align="center">
+  <img src="./images/write.png?raw=true" alt="Writing a Markdown note" width="500">
+</p>
+
+<p align="center">
+  <a href="https://react-notes-sx.netlify.app/">View Live Demo</a>
+</p>
 
 <br>
 
-> **Note:** This project depends on React 17. The markdown editor and markdown to HTML converter it relies on are not currently compatible with React 18 or later.
+> **Note:** This project depends on React 17. The Markdown editor and Markdown-to-HTML converter it relies on are not currently compatible with React 18 or later.
 
 <br>
 
@@ -22,7 +32,7 @@ A notes web application for writing and organizing content in Markdown, with a l
 
 ## Overview
 
-This project allows users to create, organize, edit, preview, and delete notes written in Markdown through a resizable split-panel interface. It is built with React, JavaScript, HTML, and CSS, and uses Vite as the build tool. Notes are stored in the browser’s local storage, saved automatically as users type, and ordered by their most recent updates. React MDE provides the Markdown editing interface, while Showdown converts the Markdown content into formatted HTML for the live preview. React Split manages the adjustable layout, and nanoid generates a unique identifier for each note.
+This project allows users to create, organize, edit, preview, and delete notes written in Markdown through a resizable split-panel interface. Users can write content with a live formatted preview, while notes are saved automatically as they type and ordered by their most recent updates. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. Notes are stored in the browser’s local storage, allowing them to persist between visits without a backend or database. React MDE provides the Markdown editing interface, Showdown converts Markdown into formatted HTML for the live preview, React Split manages the adjustable layout, and nanoid generates a unique identifier for each note.
 
 <br>
 
