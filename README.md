@@ -1,6 +1,6 @@
 # React Notes
 
-A web application for writing and organizing notes in Markdown, with a live preview and a resizable, split panel layout. Notes are saved automatically as you write, and the most recent one always stays at the top of the list.
+A notes web application for writing and organizing content in Markdown, with a live preview and a resizable split-panel layout. Notes are saved automatically as users type, and the most recently updated note remains at the top of the list.
 
 **[View Live Demo](https://react-notes-sx.netlify.app/)**
 
@@ -22,7 +22,7 @@ A web application for writing and organizing notes in Markdown, with a live prev
 
 ## Overview
 
-This project is a web application that allows users to create, organize, edit, preview, and delete notes through a split-panel interface. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Notes are saved in the browser’s local storage, organized by their most recent updates, and written using a Markdown editor with a formatted preview. React Split is used to create the resizable layout, while React MDE provides the editing interface. Showdown converts Markdown into HTML for the preview, and nanoid generates a unique identifier for each note.
+This project allows users to create, organize, edit, preview, and delete notes written in Markdown through a resizable split-panel interface. It is built with React, JavaScript, HTML, and CSS, and uses Vite as the build tool. Notes are stored in the browser’s local storage, saved automatically as users type, and ordered by their most recent updates. React MDE provides the Markdown editing interface, while Showdown converts the Markdown content into formatted HTML for the live preview. React Split manages the adjustable layout, and nanoid generates a unique identifier for each note.
 
 <br>
 
