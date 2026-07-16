@@ -2,7 +2,7 @@
 
 A web application for writing and organizing notes in Markdown, with a live preview and a resizable, split panel layout. Notes are saved automatically as you write, and the most recent one always stays at the top of the list.
 
-**[View Live Demo](https://react-notes-local-sx.netlify.app/)**
+**[View Live Demo](https://react-notes-sx.netlify.app/)**
 
 <br>
 
