@@ -15,8 +15,8 @@ A notes web application for writing and organizing content in Markdown, with a l
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
 - [Future Improvements](#future-improvements)
+- [Getting Started](#getting-started)
 
 <br>
 
@@ -73,6 +73,14 @@ The two main panels, the sidebar and the editor, are divided by React Split, whi
 
 <br>
 
+## Future Improvements
+Several enhancements are planned to extend the functionality of the application:
+- A confirmation step before deleting a note
+- Search and filtering across notes
+- Upgrading the markdown editor and converter to support React 18 and later
+  
+<br>
+
 ## Getting Started
 
 Follow the steps below to set up and run the application on your own machine.
@@ -108,11 +116,3 @@ npm run dev
 ```
 
 Once the server is running, open the local URL shown in the terminal to start using the application.
-
-<br>
-
-## Future Improvements
-Several enhancements are planned to extend the functionality of the application:
-- A confirmation step before deleting a note
-- Search and filtering across notes
-- Upgrading the markdown editor and converter to support React 18 and later
