@@ -7,16 +7,12 @@
 </h4>
 
 <p align="center">
-  <img src="./images/write.png?raw=true" alt="Writing a Markdown note" width="500">
+  <img src="docs/screenshots/write.png?raw=true" alt="Writing a Markdown note" width="500">
 </p>
 
 <p align="center">
   <a href="https://react-notes-sx.netlify.app/">View Live Demo</a>
 </p>
-
-<br>
-
-> **Note:** This project depends on React 17. The Markdown editor and Markdown-to-HTML converter it relies on are not currently compatible with React 18 or later.
 
 <br>
 
@@ -41,28 +37,28 @@ This project allows users to create, organize, edit, preview, and delete notes w
 ### Creating New Notes
 Clicking the plus icon in the sidebar creates a new, blank note and selects it for editing right away. If no notes exist yet, the main view instead shows a message with a button to create the first one.
 
-<p align="center"><img src="./images/create-new.png?raw=true" alt="Create New Note" width="700"></p>
+<p align="center"><img src="docs/screenshots/create-new.png?raw=true" alt="Create New Note" width="700"></p>
 
 <br>
 
 ### Organizing and Writing Notes
 The sidebar lists every note with the most recently created or edited one always at the top, and the first line of a note's content is used as its title in the list. Selecting a note highlights it in the sidebar and opens it in the editor, where the "Write" tab provides a Markdown editor with a formatting toolbar. The divider between the sidebar and editor can be dragged to resize either panel.
 
-<p align="center"><img src="./images/write.png?raw=true" alt="Write Note" width="700"></p>
+<p align="center"><img src="docs/screenshots/write.png?raw=true" alt="Write Note" width="700"></p>
 
 <br>
 
 ### Previewing Notes in HTML
 Selecting the "Preview" tab renders the current note's Markdown as formatted HTML, letting users check how their note will look before switching back to continue editing.
 
-<p align="center"><img src="./images/preview.png?raw=true" alt="Preview Note" width="700"></p>
+<p align="center"><img src="docs/screenshots/preview.png?raw=true" alt="Preview Note" width="700"></p>
 
 <br>
 
 ### Deleting Notes
 Hovering over a note in the sidebar reveals a trash icon, and clicking it removes that note immediately.
 
-<p align="center"><img src="./images/delete.png?raw=true" alt="Delete Note" width="300"></p>
+<p align="center"><img src="docs/screenshots/delete.png?raw=true" alt="Delete Note" width="300"></p>
 
 <br>
 
@@ -94,6 +90,9 @@ Several enhancements are planned to extend the functionality of the application:
 ## Getting Started
 
 Follow the steps below to set up and run the application on your own machine.
+> **Note:** This project depends on React 17. The Markdown editor and Markdown-to-HTML converter it relies on are not currently compatible with React 18 or later.
+
+<br>
 
 **Prerequisites**
 

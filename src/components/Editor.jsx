@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import ReactMde from "react-mde"
 import Showdown from "showdown"
 
@@ -31,5 +32,12 @@ function Editor({ currentNote, updateNote }) {
         </section>
     );
 }
+
+Editor.propTypes = {
+    currentNote: PropTypes.shape({
+        body: PropTypes.string.isRequired,
+    }).isRequired,
+    updateNote: PropTypes.func.isRequired,
+};
 
 export default Editor;

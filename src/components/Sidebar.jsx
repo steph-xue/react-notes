@@ -1,9 +1,9 @@
-import React from "react"
+import PropTypes from "prop-types"
 
 function Sidebar(props) {
 
     // Map through the notes array and create a div element for each note
-    const noteElements = props.notes.map((note, index) => (
+    const noteElements = props.notes.map((note) => (
         <div key={note.id}>
             <div
                 
@@ -34,5 +34,20 @@ function Sidebar(props) {
         </section>
     );
 }
+
+Sidebar.propTypes = {
+    notes: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.string.isRequired,
+            body: PropTypes.string.isRequired,
+        })
+    ).isRequired,
+    currentNote: PropTypes.shape({
+        id: PropTypes.string.isRequired,
+    }).isRequired,
+    setCurrentNoteId: PropTypes.func.isRequired,
+    newNote: PropTypes.func.isRequired,
+    deleteNote: PropTypes.func.isRequired,
+};
 
 export default Sidebar;
