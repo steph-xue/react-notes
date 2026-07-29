@@ -76,7 +76,7 @@ Hovering over a note in the sidebar reveals a trash icon, and clicking it remove
 
 ## How It Works
 
-The two main panels, the sidebar and the editor, are divided by React Split, which allows the divider between them to be dragged to resize either side. Notes are held in a single state array in the root component, initialized by reading directly from the browser's local storage, and every time that array changes, an effect writes the updated list straight back to local storage so notes persist across page reloads. Creating a note generates a new entry with a unique id from nanoid and adds it to the top of the list, while editing a note moves it back to the top and updates its content in place. The editor itself is built with React MDE for the writing interface and Showdown to convert the note's Markdown into HTML for the preview tab. Vite handles the local development server and bundles the app for deployment.
+The two main panels, the sidebar and the editor, are divided by React Split, which allows the divider between them to be dragged to resize either side. Notes are held in a single state array in the root component, initialized by reading directly from the browser's local storage, and every time that array changes, an effect writes the updated list straight back to local storage so notes persist across page reloads. Creating a note generates a new entry with a unique id from nanoid and adds it to the top of the list, while editing a note moves it back to the top and updates its content in place. The editor itself is built with React MDE for the writing interface and Showdown to convert the note's Markdown into HTML for the preview tab. Vite handles the local development server and bundles the application for deployment.
 
 <br>
 
