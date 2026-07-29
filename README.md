@@ -91,7 +91,6 @@ Several enhancements are planned to extend the functionality of the application:
 ## Getting Started
 
 Follow the steps below to set up and run the application on your own machine.
-> **Note:** This project depends on React 17. The Markdown editor and Markdown-to-HTML converter it relies on are not currently compatible with React 18 or later.
 
 <br>
 
@@ -105,7 +104,7 @@ npm --version
 
 <br>
 
-**1. Clone the repository**
+**1. Clone the Repository**
 
 This downloads a copy of the project to your computer and moves you into the project folder.
 ```bash
@@ -113,14 +112,14 @@ git clone https://github.com/steph-xue/react-notes.git
 cd react-notes
 ```
 
-**2. Install the dependencies**
+**2. Install the Dependencies**
 
-This installs React 17 and everything else the project needs to run.
+This installs all dependencies the project needs to run.
 ```bash
 npm install
 ```
 
-**3. Start the development server**
+**3. Start the Development Server**
 
 This runs the application locally with Vite.
 ```bash

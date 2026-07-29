@@ -4,6 +4,7 @@ import Editor from "./components/Editor.jsx"
 import Split from "react-split"
 import { nanoid } from "nanoid"
 
+// Component to render the app, managing notes state and rendering the sidebar and editor panes
 function App() {
 
     // Create state for notes objects array (includes id and body of writing)

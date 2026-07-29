@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"
 
+// Component to render the list of notes and controls to create or delete them
 function Sidebar(props) {
 
     // Map through the notes array and create a div element for each note

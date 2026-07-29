@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import ReactMde from "react-mde"
 import Showdown from "showdown"
 
+// Component to render the markdown editor and preview for the current note
 function Editor({ currentNote, updateNote }) {
 
     // Create state for selected tab (write or preview) in the markdown editor
