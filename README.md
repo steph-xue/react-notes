@@ -28,7 +28,7 @@
 
 ## Overview
 
-This project allows users to create, organize, edit, preview, and delete notes written in Markdown through a resizable split-panel interface. It is built with React, JavaScript, HTML, and CSS, uses Vite as the build tool, and is deployed on Netlify for cloud hosting. Users can write content with a live formatted preview, while notes are saved automatically as they type and ordered by their most recent updates. Notes are stored in the browser’s local storage, allowing them to persist between visits without a backend or database. React MDE provides the Markdown editing interface, Showdown converts Markdown into formatted HTML for the live preview, React Split manages the adjustable layout, and nanoid generates a unique identifier for each note.
+This project allows users to create, organize, edit, preview, and delete notes written in Markdown through a resizable split-panel interface. It is built with React, JavaScript, and CSS, uses Vite as the build tool, and is deployed on Netlify for cloud hosting. Users can write content with a live formatted preview, while notes are saved automatically as they type and ordered by their most recent updates. Notes are stored in the browser’s local storage, allowing them to persist between visits without a backend or database. React MDE provides the Markdown editing interface, Showdown converts Markdown into formatted HTML for the live preview, React Split manages the adjustable layout, and nanoid generates a unique identifier for each note.
 
 <br>
 
@@ -66,7 +66,7 @@ Hovering over a note in the sidebar reveals a trash icon, and clicking it remove
  
 | Layer | Technologies |
 |---|---|
-| Frontend | React, JavaScript, HTML, CSS |
+| Frontend | React, JavaScript, CSS |
 | Libraries | React MDE (provides the Markdown editor with write and preview tabs),<br>Showdown (converts a note's Markdown content into HTML for display),<br>React Split (creates the draggable divider between panels) |
 | Storage | Local storage |
 | Build Tool | Vite |
